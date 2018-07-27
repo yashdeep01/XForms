@@ -7,6 +7,8 @@ The forms are available in 2 languages – English and Hindi.
 ## Application
 The XForms developed in this project find their application extensively in _GIS_. The information collected is used for several operations in GIS. One such application of the XForms finds its way in a plugin developed previously in IIRS – *__QRealTime__*. The following is the flow chart depicting the use of an XForms at various stages.
 
+![Flowchart depicting XForm life cycle in QGIS](https://github.com/yashdeep01/XForms/blob/master/Flowchart.png)
+
 The XForm, once developed successfully, is uploaded on the aggregate server. It can be accessed through two platforms – mobile app and web server. The mobile app is available for Android on Play Store as *ODKCollect App*. ODK is the acronym for Open Data Kit. The web server through which the XForms can be accessed is *Enketo*. These accessed forms can be used to conduct surveys from a mobile phone with the ODKCollect app or any other device connected to the web server Enketo most conveniently. The data collected through these forms is, too, uploaded on aggregate server. This data can be obtained on QGIS through _QRealTime_ plugin by importing and syncing it.
 
 
